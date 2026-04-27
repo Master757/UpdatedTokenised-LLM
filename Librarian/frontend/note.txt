@@ -1,0 +1,6 @@
+The frontend is not hardcoded by me
+Neiter is it checked by me
+the backend and the interface connector is 
+    completely written and reviewed by me
+
+

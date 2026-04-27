@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librarian AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header class="header-glass">
+            <div class="logo-container">
+                <div class="pulse-dot"></div>
+                <h1>Librarian AI</h1>
+            </div>
+            <span class="status" id="connection-status">Connecting...</span>
+        </header>
+
+        <main class="chat-container glass-panel" id="chat-container">
+            <!-- Messages will be injected here -->
+        </main>
+
+        <footer class="input-area glass-panel">
+            <input type="text" id="message-input" placeholder="Ask about a book, genre, or return..." autocomplete="off">
+            <button id="send-btn" aria-label="Send">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22 2L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
